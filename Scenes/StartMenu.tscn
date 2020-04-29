@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scripts/StartMenu.gd" type="Script" id=1]
+[ext_resource path="res://Assets/CoronapocalypseTitle.png" type="Texture" id=2]
 
 [node name="StartMenu" type="Control"]
 anchor_right = 1.0
@@ -10,15 +11,10 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ColorRect" type="ColorRect" parent="."]
-margin_left = -76.0
-margin_top = -72.0
-margin_right = 1994.0
-margin_bottom = 1204.0
-color = Color( 0.498039, 0.145098, 0.145098, 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 959.907, 564.514 )
+scale = Vector2( 1.02916, 1.13063 )
+texture = ExtResource( 2 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 margin_right = 1917.0
